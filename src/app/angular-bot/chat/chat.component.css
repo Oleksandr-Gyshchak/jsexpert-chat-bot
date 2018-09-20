@@ -1,0 +1,25 @@
+.message {
+    border-radius: 50рх; 
+    margin: 0 15рх 20рх; 
+    padding: 10рх 20рх; 
+    position: relative; 
+    font-size: 20рх;
+}
+
+.message.to {
+    background-color: #2095FE; 
+    color: #fff; 
+    margin-left: 100px; 
+    text-align: right;
+}
+
+.message.from {
+    background-color: #E5E4E9; 
+    color: #363636; 
+    margin-right: 100px;
+}
+
+.message.to + .message.to,
+.message.from + .message.from{
+    margin-left: -10px;
+}

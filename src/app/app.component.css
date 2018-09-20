@@ -1,0 +1,19 @@
+.button {
+    margin-right: 20px
+}
+
+.button-active {
+    background-color: blueviolet;
+    color: white;
+}
+
+.button-active:hover,
+.button-active:focus{
+    background-color: blueviolet;
+    border-color: blueviolet;
+    color: #fff;
+}
+
+.top-bar{
+    margin: 25px 0;
+}
